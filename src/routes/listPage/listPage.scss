@@ -2,19 +2,22 @@
   display: flex;
   height: 100%;
   .listContainer {
+    height: 100%;
     flex: 3;
-
     .wrapper {
+      height: 100%;
       padding-right: 58px;
       display: flex;
       flex-direction: column;
       gap: 50px;
       overflow-y: scroll;
+      padding-bottom: 50px;
     }
   }
 
   .mapContainer {
     flex: 2;
+    height: 100%;
     background-color: #fcf5f3;
   }
 }
